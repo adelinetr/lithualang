@@ -1,0 +1,147 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400&display=swap");
+.about-us {
+  display: flex;
+  flex-direction: column;
+  margin-right: 2em;
+}
+.about-us .main-h3 {
+  color: #EBC358;
+  font-size: 4rem;
+  margin: 0 !important;
+  margin-bottom: 1em !important;
+}
+.about-us p {
+  font-size: 0.9rem;
+  font-family: "Inter";
+  line-height: 1.5;
+}
+.about-us img {
+  width: 100%;
+}
+
+.faq-section {
+  margin-bottom: 10em;
+}
+.faq-section h3 {
+  text-align: center;
+  margin-bottom: 3em;
+  color: #228E5A;
+}
+.faq-section details {
+  margin: 1em;
+  margin-bottom: 4em;
+  font-size: 1.1rem !important;
+  cursor: pointer;
+}
+.faq-section details summary {
+  margin-left: auto;
+  margin-right: auto;
+  list-style-type: none;
+  font-family: "Poppins Regular";
+  width: 100%;
+}
+.faq-section details::before {
+  content: "+";
+  float: right;
+  transition: transform 0.3s;
+}
+.faq-section details[open]::before {
+  content: "-";
+}
+.faq-section details p {
+  cursor: default;
+  color: #444;
+  font-family: "Inter";
+  line-height: 1.5;
+}
+
+.left-photo {
+  margin-top: 5em;
+  width: 95%;
+}
+
+.right-text {
+  margin-left: 2em;
+  width: 90%;
+  margin-top: 15em !important;
+}
+.right-text h4 {
+  font-size: 2.4rem !important;
+}
+
+@media screen and (min-width: 680px) {
+  details {
+    margin-left: 4em !important;
+    margin-right: 4em !important;
+  }
+  details p {
+    width: 80%;
+  }
+  .about-us {
+    display: flex;
+    flex-direction: unset;
+    margin-right: 0em !important;
+  }
+  .left-photo {
+    width: 80% !important;
+    margin-top: 15em;
+  }
+  .right-text {
+    width: 90%;
+    margin-top: 4em !important;
+  }
+}
+@media only screen and (min-width: 900px) {
+  .faq-section {
+    font-size: 1.2rem;
+  }
+  .faq-section details {
+    margin-top: 5em;
+  }
+  .faq-section details p {
+    width: 80%;
+    font-size: 1rem;
+  }
+  details p {
+    width: 60%;
+  }
+  .main-h3 {
+    color: #EBC358;
+    font-size: 4rem;
+    margin: 0 !important;
+    margin-bottom: 1em !important;
+  }
+  p {
+    font-size: 0.9rem;
+    width: 90%;
+  }
+  img {
+    width: 100%;
+  }
+  .left-photo {
+    margin-top: 10em !important;
+    width: 30%;
+  }
+  .right-text {
+    margin-top: 7em !important;
+  }
+}
+@media only screen and (min-width: 1190px) {
+  .right-text p {
+    width: 70%;
+  }
+  .left-photo {
+    margin-right: auto !important;
+    margin-top: 6em !important;
+  }
+  .left-photo img {
+    width: 640px;
+    height: auto;
+    margin-top: 0 !important;
+  }
+  .faq-section {
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}/*# sourceMappingURL=AboutPage.css.map */

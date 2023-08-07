@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,600;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400&display=swap');
+
+$yellow-color: #E4AD55;
+$text-color: #444;
+$active-nav: #dd9f3a;
+$green-color: #65B674;
+$hover-green: #449b54;
+$regular: 'Poppins Light';
+
+
+.heading {
+    font-family: 'Inter';
+    margin: 0.5em;
+    margin-top: 2.5em;
+    line-height: 1.5;
+    text-align: center;
+    font-size: 1.6rem;
+    letter-spacing: 0.4px;
+    font-weight: 400;
+    width: 92%;
+    margin-bottom: 0.5em;
+    color: #444;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .hero-p {
+    text-align: center;
+    margin: 0 auto;
+    font-size: 0.9rem;
+    width: 90%;
+    line-height: 1.6em;
+    font-family: 'Inter';
+    line-height: 1.5;
+    margin-bottom: 4em !important;
+  } 
+  
+  .download-app {  
+    display: flex;
+    margin-top: 2em;
+    justify-content: center;
+    gap: 0.5em;
+  }
+  
+  .app-btn {
+    cursor: pointer;
+    width: 40%;
+    filter: drop-shadow(0 0 0.35rem rgb(184, 184, 184));
+  }
+
+
+
+  .big-lamp{
+    animation: moveUp 1s alternate-reverse infinite;
+  }
+
+  .small-circle{
+    animation: smallerCircles 1s alternate-reverse infinite;
+  }
+  .main-lamp{
+    animation: colorChange, moveUp 1s alternate-reverse infinite;
+  }
+  .hair-illustration{
+    animation: hairMoving 1s alternate-reverse infinite;
+  }
+  .leaf{
+    animation: leafMoving 1s alternate-reverse infinite;
+  }
+  
+  .hero-illustration {
+    margin-top: 4em;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 90%;
+  }
+  
+  @media only screen and (min-width: 600px) {
+    .app-btn {
+      width: 25%;
+    }
+  }
+  
+  @media only screen and (min-width: 860px) {
+    main {
+    margin-top: 0em !important;
+    margin: 2em;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    }
+    .heading {
+      margin-top: 3em;
+      width: 100%;
+      text-align: left;
+      font-size: 1.5rem;
+    }
+    .hero-p {
+      text-align: left;
+      width: 80%;
+      font-size: 0.9rem;
+      margin: 0;
+      margin-top: 1.2em;
+      line-height: 1.7em;
+      margin-bottom: 3em;
+    }
+    .download-app {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      justify-content: left;
+      margin-left: 1em;
+    }
+    .app-btn {
+        width: 190px;
+        height: auto;
+        margin-top: 1em;
+    }
+    .hero-illustration {
+      margin: 7em 0 0 auto;
+      width: 470px;
+    }
+  }
+  
+  @media only screen and (min-width: 1165px) {
+    .heading {
+      margin-top: 0em;
+      width: 100%;
+      font-size: 1.7rem;
+    }
+    .hero-p{
+        font-size: 0.9rem;
+        width: 90%;
+    }
+    .hero-illustration {
+      margin-top: 3em;
+      width: 600px;
+      height: auto;
+    }
+  }
+  
+  @media only screen and (min-width: 1490px) {
+    main {
+      margin-top: 7em;
+      margin-left: auto;
+      margin-right: auto;
+      gap: 3em;
+      max-width: 1490px !important;
+    }
+    .heading {
+      margin-top: 1em;
+      width: 100%;
+      font-size: 2.2rem;
+    }
+    .left-side-hero {
+      max-width: 1490px !important;
+      display: block !important;
+      margin-left: auto !important;
+      margin-right: auto !important;
+    }
+    .hero-illustration {
+      width: 780px;
+      height: auto;
+      margin-top: 7em !important;
+      max-width: 1490px !important;
+    }
+  }
+
+  @keyframes colorChange {
+    from{
+      fill: #fdc478;
+    }
+    to{
+      fill: #E4AD55;
+    }
+  }
+
+
+  @keyframes moveUp {
+    from{
+        transform: translateY(-10px);
+    }
+    to {
+        transform: translateY(0);
+    }
+}
+
+@keyframes hairMoving{
+  from{
+    rotate: 0.3deg;
+    transform-origin: center;
+  }
+  to{
+    transform: rotate(3deg);
+    transform-origin: center;
+  }
+}
+
+@keyframes leafMoving{
+  from{
+    transform: translateX(10px)
+  }
+}

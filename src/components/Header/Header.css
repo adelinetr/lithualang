@@ -1,0 +1,208 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,600;1,500&display=swap");
+:root {
+  --yellow-color: #E4AD55;
+  --text-color: #444;
+  --active-nav: #dd9f3a;
+  --light-yellow: #FFEBB6;
+  --green-color: #65B674;
+  --hover-green: #449b54;
+}
+
+.header h3 {
+  margin-left: 1em;
+  margin-right: auto !important;
+  color: var(--yellow-color);
+  font-size: 1.3rem;
+  margin-top: 1em !important;
+}
+
+.active {
+  color: var(--active-nav);
+  font-family: "Poppins SemiBold";
+}
+
+nav {
+  position: fixed;
+  right: 0;
+  top: 0;
+  background: #fafafa;
+  z-index: 999;
+  height: 100vh;
+  width: 100%;
+  transform: translateX(100%);
+  transition: transform 0.6s ease-in-out;
+}
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 2em;
+}
+nav ul a {
+  margin-bottom: 1em;
+  padding: 1em;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: var(--text-color);
+  display: block;
+  width: 100%;
+  font-size: 0.8rem;
+  transition: all ease 0.4s;
+  font-family: "Poppins Medium";
+}
+nav ul a:hover {
+  transition: all ease 0.4s;
+  color: var(--active-nav);
+}
+
+.join-button {
+  color: #fff;
+  text-transform: uppercase;
+  font-family: "Poppins Medium" !important;
+  border: none;
+  background-color: #228E5A;
+  border-radius: 30px;
+  padding: 0.4em 2.3em;
+  margin-left: 3em !important;
+  transition: all ease-in-out 0.3s;
+  cursor: pointer;
+  display: flex;
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin-top: 1.6em;
+  margin-right: 5em;
+}
+.join-button:hover {
+  cursor: pointer;
+  background-color: #0f7242;
+  transition: all ease-in-out 0.3s;
+}
+
+/* 
+button{
+    margin-top: 2em;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: 'Poppins Medium' !important;
+    border: none;
+    background-color: var(--green-color);
+    border-radius: 30px;
+    padding: 1em 4.3em;
+    margin-left: 3em !important;
+    transition: all ease-in-out 0.3s;
+    cursor: pointer;
+    display: block;
+    margin-left: auto !important;
+    margin-right: auto !important;
+
+    &:hover{
+        background-color: var(--hover-green);
+        transition: all ease-in-out 0.3s;
+    }
+}
+*/
+.close {
+  cursor: pointer;
+  float: right;
+  width: 2em;
+  top: 20;
+  margin: 2em;
+}
+
+.menu {
+  cursor: pointer;
+  width: 2.3em;
+  height: auto;
+  top: 0;
+  right: 0;
+  position: absolute;
+  margin-top: 1.2em;
+  margin-right: 0.7em;
+}
+
+@media only screen and (min-width: 860px) {
+  .header h3 {
+    margin: 0 !important;
+    padding: 0 !important;
+    margin-top: 1.2em !important;
+    font-size: 1.2rem;
+    margin-left: 1.5em !important;
+    position: absolute;
+  }
+  .container {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+  header {
+    position: unset !important;
+    top: 0;
+    z-index: 999;
+    height: 75px !important;
+    width: 95%;
+    background-color: #ffffff;
+    border-radius: 40px;
+  }
+  .menu {
+    display: none;
+  }
+  .close {
+    display: none;
+  }
+  nav {
+    top: 0;
+    right: 0;
+    position: unset !important;
+    height: unset !important;
+    display: flex;
+    transform: translateX(0) !important;
+    justify-content: center;
+    align-items: center;
+    background: none;
+    margin-left: auto;
+  }
+  nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 !important;
+    margin-top: 1.9em !important;
+  }
+  nav ul a {
+    margin: 0 !important;
+    padding: 0 !important;
+    margin-left: 1.5em !important;
+    margin-right: 1.8em !important;
+    font-size: 0.7rem;
+    padding-left: 0 !important;
+  }
+  button {
+    margin-right: 2em !important;
+  }
+  /*
+  button{
+      padding: 0.6em 2em;
+      margin-top: 0 !important;
+  }
+  .button{
+      display: flex;
+      justify-content: space-between;
+      align-items: end;
+      margin: 0 !important;
+      padding: 0 !important;
+      font-size: 0.8rem;
+  }
+  */
+}
+@media only screen and (min-width: 1020px) {
+  nav li a {
+    font-size: 0.8rem !important;
+    margin-right: 2.5em !important;
+  }
+}
+@media only screen and (min-width: 1710px) {
+  header {
+    width: 1710px;
+  }
+}/*# sourceMappingURL=Header.css.map */

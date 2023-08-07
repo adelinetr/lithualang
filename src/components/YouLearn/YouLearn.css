@@ -1,0 +1,194 @@
+.fourth-section {
+  margin-top: 9em;
+  margin-bottom: 5em;
+  margin-left: auto;
+  margin-right: auto;
+  display: table;
+}
+.fourth-section h2 {
+  color: #444;
+  font-size: 1.7rem;
+  margin-left: 1em;
+  margin-bottom: 3em;
+  text-align: center;
+}
+
+.learn-4-card {
+  gap: 1em;
+  margin-left: 1em;
+  margin-right: 1em;
+}
+
+.one-card {
+  width: 100%;
+}
+
+.text-description {
+  width: 190px;
+  height: 140px;
+  border-radius: 30px;
+  transition: 0.3s ease-in-out;
+}
+.text-description h3 {
+  text-align: left !important;
+  color: #444;
+  font-weight: 400;
+  font-family: "Poppins Medium";
+  font-size: 1rem;
+  padding-left: 1em;
+  width: 100%;
+  padding-top: 1.5em !important;
+  cursor: default;
+}
+.text-description p {
+  font-family: "Inter";
+  line-height: 1.5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  width: 90%;
+  font-size: 0.9rem;
+  padding: 1.7em !important;
+  cursor: default;
+  transition: 0.3s ease-in-out;
+}
+.text-description p:hover {
+  background-color: #FFFAEC;
+  transition: 0.3s ease-in-out;
+}
+
+.card-container {
+  margin-bottom: 4em;
+}
+
+.lamp, .map, .grammar, .dialogue {
+  width: 35%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media screen and (min-width: 350px) {
+  .learn-4-card {
+    gap: 1em;
+    margin-left: 1em;
+    margin-right: 1em;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .one-card {
+    width: 100%;
+  }
+  .text-description h3 {
+    height: 1vh !important;
+    text-align: center;
+    color: #444;
+    font-size: 0.8rem;
+    margin: 0;
+    margin-left: 0.5em;
+  }
+  .text-description p {
+    font-size: 0.7rem;
+  }
+  .card-container {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: end;
+    margin-bottom: 2em;
+  }
+  .lamp {
+    width: 40% !important;
+  }
+  .lamp, .map, .grammar, .dialogue {
+    align-items: baseline !important;
+    justify-content: center;
+    width: 55%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media screen and (min-width: 350px) and (min-width: 385px) {
+  .lamp {
+    width: 35% !important;
+  }
+  .lamp, .map, .grammar, .dialogue {
+    width: 45%;
+    margin: 0 !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+  .learn-4-card {
+    align-items: baseline;
+  }
+}
+@media screen and (min-width: 680px) {
+  .text-description h3 {
+    height: 3vh !important;
+  }
+}
+@media screen and (min-width: 975px) {
+  .learn-4-card {
+    display: flex;
+    margin: 2em;
+    gap: 4em;
+    justify-content: center;
+    margin-bottom: 7em;
+  }
+  .lamp {
+    width: 30% !important;
+  }
+  .card-container {
+    display: flex;
+    width: 100%;
+  }
+  .text-description h3 {
+    font-size: 1.1rem !important;
+  }
+  .text-description p {
+    margin-top: 2em !important;
+    width: 200px;
+    height: 60px;
+  }
+  .svg-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .one-card {
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+  }
+  .one-card h3 {
+    text-align: center;
+    font-size: 0.9rem;
+    margin: 0 !important;
+    color: #444;
+  }
+  .one-card p {
+    font-size: 0.8rem !important;
+    text-align: left;
+  }
+  .svg-icons {
+    margin-bottom: 2em;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media only screen and (min-width: 1190px) {
+  .fourth.section {
+    max-width: 1190px !important;
+  }
+  .text-description {
+    width: 230px;
+  }
+  .learn-4-card {
+    max-width: 1190px !important;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}/*# sourceMappingURL=YouLearn.css.map */

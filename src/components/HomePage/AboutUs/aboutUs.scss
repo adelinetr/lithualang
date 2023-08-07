@@ -1,0 +1,137 @@
+.aboutUs{
+    margin-top: 4em;
+}
+.left-side-about{
+    position: relative;
+    margin-top: 19em !important;
+}
+
+.mobile-h3{
+    text-align: center !important;
+    font-size: 1.7rem !important;
+}
+.non-mobile-h3{
+    display: none;
+}
+
+.ellipse{
+    position: absolute;
+    width: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.appPhoto{
+    width: 230px;
+    height: auto;
+    display: block !important;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    z-index: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    filter: drop-shadow(1px 5px 5px #666666);
+}
+
+.right-side-about{
+    margin-top: 37em;
+    margin-left: 1.5em;
+    margin-right: 1.5em;
+
+    h3{
+        text-align: center;
+        color: #444;
+        font-family: 'Inter';
+        font-weight: 400;
+    }
+}
+.about-p{
+    font-size: 0.9rem;
+    line-height: 1.5em;
+}
+
+.small-c{
+    animation: ellipseGrowing 1.5s alternate-reverse infinite;
+    transform-origin: center;
+}
+.medium-c{
+    animation: ellipseGrowing 1.8s alternate-reverse infinite;
+    transform-origin: center;
+}
+.big-c{
+    animation: ellipseGrowing 2s alternate-reverse infinite;
+    transform-origin: center;
+}
+
+@keyframes ellipseGrowing {
+    from{
+        transform: scale(1.05);
+    }
+    to{
+        transform: scale(1);
+    }
+}
+
+@media (min-width:540px) {
+    .about-p{
+        text-align: center;
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media only screen and (min-width: 860px) {
+    .mobile-h3{
+        display: none;
+    }
+    .non-mobile-h3{
+        display: block;
+        margin-top: 8em !important;
+        text-align: left !important;
+        font-size: 2rem;
+        margin-left: 1em !important;
+    }
+    .aboutUs {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 2em !important;
+
+      }
+      
+      .left-side-about {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 15em !important;
+      }
+      
+      .right-side-about {
+        margin: 0 !important;
+        flex: 1;
+      }
+      .about-p{
+        text-align: left;
+        margin-left: 2em;
+        font-size: 0.9rem;
+        width: 90%;
+      }
+}
+
+@media only screen and (min-width: 1010px) {
+    .aboutUs{
+        margin-top: 5em;
+    }
+}
+
+@media only screen and (min-width: 1690px) {
+    .aboutUs{
+        max-width: 1690px !important;
+        margin: 0 !important;
+        margin-left: auto !important;
+        margin-right: auto !important;
+    }
+}

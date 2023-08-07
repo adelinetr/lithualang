@@ -1,0 +1,111 @@
+.last-section{
+    margin: 1em;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 8em;
+    gap: 5em;
+}
+
+.left-text{
+    margin-left: auto;
+    margin-right: auto;
+    h2{
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        color: #3A3A3A;
+    }
+    p{
+        font-size: 0.9rem;
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    button{
+        background-color: #6CB489;
+        border: none;
+        color: #fff;
+        border-radius: 30px;
+        padding: 0.7em 2.3em;
+        margin-bottom: 3em;
+        margin-top: 2em;
+        text-transform: uppercase;
+        letter-spacing: 0.7px;
+        font-family: 'Poppins Medium';
+        cursor: pointer;
+        transition: 0.3s ease-in-out;
+
+        &:hover{
+            transition: 0.3s ease-in-out;
+            background-color: #498f65;
+        }
+    }
+}
+
+.right-illustration{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+.right-illustration svg{
+    width: 80% !important;
+    height: auto;
+}
+
+@media screen and (min-width: 540px) {
+    .left-text{
+        width: 80%;
+    }
+    
+}
+
+@media screen and (min-width: 680px) {
+    .last-section{
+        flex-direction: unset;
+    }
+    .right-illustration svg{
+        width: 90% !important;
+    }
+    
+}
+
+@media screen and (min-width: 800px) {
+    .last-section{
+        display: flex;
+        margin-top: 10em;
+        height: 60vh;
+    }
+    .right-illustration svg{
+        width: 90% !important;
+        height: auto;
+    }
+}
+
+@media screen and (min-width: 960px) {
+    .left-text{
+        h2{
+            font-size: 2rem;
+        }
+        width: 100%;
+        margin-left: 2em;
+        margin-right: 2em;
+    }
+    .right-illustration svg{
+        width: 100% !important;
+        height: auto;
+    }
+}
+
+@media screen and (min-width: 1190px) {
+    .last-section{
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 1190px;
+    }
+}

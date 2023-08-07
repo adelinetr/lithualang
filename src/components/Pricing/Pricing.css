@@ -1,0 +1,408 @@
+@media screen and (min-width: 330px) {
+  .pricing-section {
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 7em;
+  }
+  .text-part {
+    margin: 1em;
+    margin-bottom: 4em;
+  }
+  .text-part h4 {
+    text-align: center;
+    font-size: 1.6rem;
+    color: #444;
+    font-family: "Poppins Medium";
+    font-weight: 400;
+  }
+  .text-part p {
+    margin-left: 2em;
+    margin-right: 2em;
+    text-align: center;
+    font-size: 0.9rem;
+    line-height: 1.5;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .free-section {
+    justify-content: center !important;
+    align-items: center !important;
+    border: #D7AE3F 2px solid;
+    border-radius: 30px;
+    width: 300px !important;
+    height: 460px !important;
+    margin-top: 2em;
+    margin-bottom: 2em;
+  }
+  .prices-plan {
+    border: 1px solid #444;
+    border-radius: 33px;
+    margin-bottom: 2em;
+  }
+  .prices {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 1em;
+    gap: 2em;
+    flex-wrap: wrap;
+  }
+  .all-points {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .plan {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 30px;
+    width: 300px;
+    height: 450px;
+  }
+  .plan p {
+    font-size: 0.6rem;
+    width: 90% !important;
+    height: 12vh;
+    color: #646464;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2em !important;
+  }
+  .plan .free-h3, .plan .student-h3, .plan .premium-h3 {
+    margin-top: 2em !important;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+  .plan .free-h3 {
+    color: #D7AE3F;
+  }
+  .plan .student-h3 {
+    color: #52985F;
+  }
+  .plan .premium-h3 {
+    color: #52985F;
+  }
+  .plan span {
+    font-size: 0.8rem;
+    display: block;
+    text-align: center;
+    margin-top: 0.5em;
+    font-family: "Poppins Medium";
+  }
+  .plan button {
+    margin-left: auto !important;
+    margin-right: auto !important;
+    display: flex;
+    border: none;
+    margin-bottom: 2em;
+    cursor: pointer;
+  }
+  .plan .free-plan {
+    justify-content: center;
+    align-items: center;
+    background-color: #ddb23c;
+    color: #fff;
+    padding: 7px 30px;
+    border-radius: 33px;
+    transition: 0.3s ease-in-out;
+  }
+  .plan .free-plan:hover {
+    transition: 0.3s ease-in-out;
+    background-color: #daa618;
+  }
+  .plan .student-plan {
+    background-color: #52985F;
+    color: #fff;
+    padding: 7px 30px;
+    border-radius: 33px;
+    transition: 0.3s ease-in-out;
+  }
+  .plan .student-plan:hover {
+    transition: 0.3s ease-in-out;
+    background-color: #10834b;
+  }
+  .plan .premium-plan {
+    background-color: #52985F;
+    color: #fff;
+    padding: 7px 30px;
+    border-radius: 33px;
+    transition: 0.3s ease-in-out;
+  }
+  .plan .premium-plan:hover {
+    transition: 0.3s ease-in-out;
+    background-color: #10834b;
+  }
+  .plan .price {
+    font-size: 1rem;
+    margin-bottom: 1em !important;
+    color: #3E3E3E !important;
+    text-align: center;
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+  .plan .buttons-plans {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: auto;
+  }
+}
+@media screen and (min-width: 900px) {
+  .text-part p {
+    width: 60%;
+  }
+  .pricing-section {
+    flex-direction: unset;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 7em;
+  }
+  .prices {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 1em;
+    gap: 1em;
+    flex-wrap: wrap;
+  }
+  .prices-plan {
+    border: 1px solid #444;
+    border-radius: 33px;
+  }
+  .free-h3, .student-h3, .premium-h3 {
+    text-align: center !important;
+    margin-left: 0 !important;
+  }
+  .all-points {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    flex-grow: 1;
+  }
+  .plan-first-part {
+    width: 100% !important;
+  }
+  .free-section {
+    margin-top: 0 !important;
+    width: 270px !important;
+    height: 450px !important;
+  }
+  .plan {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 250px !important;
+    height: 450px !important;
+  }
+  .plan p {
+    font-size: 0.6rem;
+    width: 90% !important;
+    height: 2em !important;
+    color: #646464;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2em !important;
+  }
+  .plan span {
+    font-size: 0.8rem;
+    display: block;
+    text-align: center;
+    margin-top: 0.5em;
+    font-family: "Poppins Medium";
+  }
+  .plan button {
+    margin-left: auto !important;
+    margin-right: auto !important;
+    display: flex;
+    border: none;
+    margin-bottom: 2em;
+    cursor: pointer;
+  }
+  .plan .price {
+    font-size: 1.4rem;
+    margin-bottom: 1em !important;
+    color: #3E3E3E;
+    text-align: center;
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+  .plan .buttons-plans {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: auto;
+  }
+  .pricing-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 12em !important;
+    gap: 3em;
+  }
+  .prices {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 1em;
+    gap: 1em;
+    flex-wrap: wrap;
+  }
+  .plan {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 30px;
+    width: 230px;
+    height: 480px;
+    justify-content: center;
+    align-items: center;
+  }
+  .plan p {
+    height: 9vh;
+    font-size: 0.7rem;
+    width: 90%;
+    color: #646464;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 3em !important;
+  }
+  .plan .pricing-h3 {
+    color: #52985F;
+    margin-top: 2em !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    text-align: center !important;
+  }
+  .plan span {
+    display: block;
+    text-align: center;
+    margin-top: 0.5em;
+    font-size: 1rem;
+  }
+  .plan button {
+    margin-left: auto !important;
+    margin-right: auto !important;
+    display: flex;
+    border: none;
+    margin-bottom: 2em;
+    cursor: pointer;
+  }
+}
+@media screen and (min-width: 1000px) {
+  .plan {
+    display: flex;
+    align-items: center;
+    border-radius: 30px;
+    width: 270px;
+    height: 450px;
+  }
+  .text-part p {
+    width: 40%;
+  }
+  .prices-student {
+    justify-content: center !important;
+    align-items: center !important;
+    border: #52985F 1px solid;
+    border-radius: 30px;
+    width: 270px;
+    padding: 2em;
+    height: 520px;
+  }
+}
+@media screen and (min-width: 1150px) {
+  .pricing-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 7em;
+    gap: 8em;
+  }
+  .prices {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1em;
+    gap: 1em;
+    flex-wrap: wrap;
+  }
+  .free-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 30px;
+    width: 300px !important;
+    height: 500px !important;
+    justify-content: center;
+    align-items: center;
+  }
+  .plan {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 30px;
+    width: 300px !important;
+    height: 500px !important;
+    justify-content: center;
+    align-items: center;
+  }
+  .plan p {
+    height: 9vh;
+    font-size: 0.7rem;
+    width: 90%;
+    color: #646464;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 3em !important;
+  }
+  .plan .pricing-h3 {
+    color: #52985F;
+    margin-top: 2em !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    text-align: center !important;
+  }
+  .plan span {
+    display: block;
+    text-align: center;
+    margin-top: 0.5em;
+    font-size: 1rem;
+  }
+  .plan button {
+    margin-left: auto !important;
+    margin-right: auto !important;
+    display: flex;
+    border: none;
+    margin-bottom: 2em;
+    cursor: pointer;
+  }
+  .plan .price {
+    margin-bottom: 1em !important;
+    color: #52985F;
+    text-align: center;
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+  .plan .all-points {
+    align-items: center;
+    justify-content: center;
+  }
+  .plan .buttons-plans {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: auto;
+  }
+}/*# sourceMappingURL=Pricing.css.map */
