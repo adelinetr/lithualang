@@ -321,13 +321,13 @@
     height: 520px;
   }
 }
-@media screen and (min-width: 1150px) {
+@media screen and (min-width: 1050px) {
   .pricing-section {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-bottom: 7em;
-    gap: 8em;
+    gap: 5em;
   }
   .prices {
     display: flex;

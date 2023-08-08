@@ -65,6 +65,7 @@
   .footer h3 {
     display: unset;
     color: #f1f1f1;
+    margin-left: 1em;
     align-items: center;
   }
   .sign-up-box {
@@ -126,6 +127,7 @@
     background-color: #3C6443;
   }
   .footer {
+    padding: 1em;
     margin-left: auto;
     margin-right: auto;
     max-width: 1190px;
