@@ -9,6 +9,7 @@ This is the first multi-page website I've made and the main focus was to start m
 
 ## The Concept:
 - It's a lithuanian learning website that also introduces an app for learning this language
+  
   ![lt-illustration](https://github.com/adelinetr/lithualang/assets/119743518/a6549af9-9a3e-4ca2-b702-9fed01465572)
 
 
